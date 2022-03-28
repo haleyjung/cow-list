@@ -1,7 +1,7 @@
 {
   "name": "fullstack-reps-cowlist",
   "version": "1.0.0",
-  "description": "",
+  "description": "Forked from: [https://trk.re/cowlist](https://trk.re/cowlist)",
   "main": "index.js",
   "scripts": {
     "start": "nodemon server",
@@ -14,9 +14,11 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.20.0",
+    "dotenv": "^16.0.0",
     "express": "^4.17.1",
     "jquery": "^3.5.1",
     "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
@@ -28,5 +30,13 @@
     "nodemon": "^2.0.4",
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haleyjung/cow-list.git"
+  },
+  "bugs": {
+    "url": "https://github.com/haleyjung/cow-list/issues"
+  },
+  "homepage": "https://github.com/haleyjung/cow-list#readme"
 }
